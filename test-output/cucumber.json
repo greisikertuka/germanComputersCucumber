@@ -1,0 +1,2522 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10593254100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "main page is opened",
+            "match": {
+              "location": "HomepageSteps.thePageWithUrlIsOpened()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 339000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Check navigation buttons",
+        "description": "",
+        "id": "german-computers-page;check-navigation-buttons",
+        "after": [
+          {
+            "result": {
+              "duration": 160300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 397535700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "check that the following links are shown",
+            "match": {
+              "location": "HomepageSteps.checkThatTheFollowingLinksAreShown(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Contact",
+                  "Compare(0)",
+                  "LogIn"
+                ],
+                "line": 9
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@Input"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1021828000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "main page is opened",
+            "match": {
+              "location": "HomepageSteps.thePageWithUrlIsOpened()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 105000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Check categories",
+        "description": "",
+        "id": "german-computers-page;check-categories",
+        "after": [
+          {
+            "result": {
+              "duration": 103700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 825977800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "check that the following categories are shown",
+            "match": {
+              "location": "HomepageSteps.checkThatTheFollowingCategoriesAreShown(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Telefona"
+                ],
+                "line": 14
+              },
+              {
+                "cells": [
+                  "Tableta"
+                ],
+                "line": 15
+              },
+              {
+                "cells": [
+                  "Laptope"
+                ],
+                "line": 16
+              },
+              {
+                "cells": [
+                  "Kompjutera"
+                ],
+                "line": 17
+              },
+              {
+                "cells": [
+                  "Monitore\u0026Projektore"
+                ],
+                "line": 18
+              },
+              {
+                "cells": [
+                  "Periferike"
+                ],
+                "line": 19
+              },
+              {
+                "cells": [
+                  "Hardware"
+                ],
+                "line": 20
+              },
+              {
+                "cells": [
+                  "Printer\u0026POS"
+                ],
+                "line": 21
+              },
+              {
+                "cells": [
+                  "Networking"
+                ],
+                "line": 22
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@Input"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 928609500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "main page is opened",
+            "match": {
+              "location": "HomepageSteps.thePageWithUrlIsOpened()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 159500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          }
+        ],
+        "line": 38,
+        "name": "Register user",
+        "description": "",
+        "id": "german-computers-page;register-user;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 158700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1124589000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "we click \u0027Log in\u0027 button from home page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Log in",
+                  "offset": 10
+                }
+              ],
+              "location": "HomepageSteps.clickButtonFromHomepage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 836600400,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "we click \u0027Register\u0027 button from login page",
+            "match": {
+              "location": "HomepageSteps.weClickLogInButtonFromLoginPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 66027500,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "we type \u0027Greisi\u0027 in the \u0027First Name\u0027 register input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Greisi",
+                  "offset": 9
+                },
+                {
+                  "val": "First Name",
+                  "offset": 25
+                }
+              ],
+              "location": "HomepageSteps.typeInRegisterInputField(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47368700,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "we type \u0027Kertuka\u0027 in the \u0027Last Name\u0027 register input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Kertuka",
+                  "offset": 9
+                },
+                {
+                  "val": "Last Name",
+                  "offset": 26
+                }
+              ],
+              "location": "HomepageSteps.typeInRegisterInputField(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59829700,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "we type \u0027ioansad@gmail.com\u0027 in the \u0027Email\u0027 register input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ioansad@gmail.com",
+                  "offset": 9
+                },
+                {
+                  "val": "Email",
+                  "offset": 36
+                }
+              ],
+              "location": "HomepageSteps.typeInRegisterInputField(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 39682100,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "we type \u0027Greisi123\u0027 in the \u0027Password\u0027 register input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Greisi123",
+                  "offset": 9
+                },
+                {
+                  "val": "Password",
+                  "offset": 28
+                }
+              ],
+              "location": "HomepageSteps.typeInRegisterInputField(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40423600,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "we type \u0027Greisi123\u0027 in the \u0027Confirm Password\u0027 register input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Greisi123",
+                  "offset": 9
+                },
+                {
+                  "val": "Confirm Password",
+                  "offset": 28
+                }
+              ],
+              "location": "HomepageSteps.typeInRegisterInputField(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 339077800,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "we click \u0027Accept policy\u0027 in the register page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Accept policy",
+                  "offset": 10
+                }
+              ],
+              "location": "HomepageSteps.acceptTerms(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 294091000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "we click \u0027Register\u0027 in the register page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Register",
+                  "offset": 10
+                }
+              ],
+              "location": "HomepageSteps.acceptTerms(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1573130900,
+              "error_message": "org.openqa.selenium.WebDriverException: Failed to decode response from marionette\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-8ILM9KA\u0027, ip: \u0027192.168.74.61\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.11\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 6996, moz:profile: C:\\Users\\kertu\\AppData\\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: a0488654-2c89-4781-adc9-36782a6e9200\n*** Element info: {Using\u003dxpath, value\u003d//div[@class\u003d\u0027alert alert-success fade in\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\r\n\tat seleniumtest.page.RegisterPage.checkRegistrationSuccess(RegisterPage.java:94)\r\n\tat seleniumtest.steps.HomepageSteps.checkIfRegistrationIsSuccessful(HomepageSteps.java:122)\r\n\tat ✽.Then check if registration is successful(demo.feature:35)\r\n",
+              "status": "failed"
+            },
+            "line": 35,
+            "name": "check if registration is successful",
+            "match": {
+              "location": "HomepageSteps.checkIfRegistrationIsSuccessful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 24,
+            "name": "@Input"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12022700,
+              "error_message": "org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-8ILM9KA\u0027, ip: \u0027192.168.74.61\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.11\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 6996, moz:profile: C:\\Users\\kertu\\AppData\\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: a0488654-2c89-4781-adc9-36782a6e9200\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)\r\n\tat seleniumtest.page.HomePage.navigateToHomePage(HomePage.java:31)\r\n\tat seleniumtest.steps.HomepageSteps.thePageWithUrlIsOpened(HomepageSteps.java:48)\r\n\tat ✽.Given main page is opened(demo.feature:4)\r\n",
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "main page is opened",
+            "match": {
+              "location": "HomepageSteps.thePageWithUrlIsOpened()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 127600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          }
+        ],
+        "line": 39,
+        "name": "Register user",
+        "description": "",
+        "id": "german-computers-page;register-user;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 101400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "we click \u0027Log in\u0027 button from home page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Log in",
+                  "offset": 10
+                }
+              ],
+              "location": "HomepageSteps.clickButtonFromHomepage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "we click \u0027Register\u0027 button from login page",
+            "match": {
+              "location": "HomepageSteps.weClickLogInButtonFromLoginPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "we type \u0027Robert\u0027 in the \u0027First Name\u0027 register input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Robert",
+                  "offset": 9
+                },
+                {
+                  "val": "First Name",
+                  "offset": 25
+                }
+              ],
+              "location": "HomepageSteps.typeInRegisterInputField(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "we type \u0027Lewandowski\u0027 in the \u0027Last Name\u0027 register input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Lewandowski",
+                  "offset": 9
+                },
+                {
+                  "val": "Last Name",
+                  "offset": 30
+                }
+              ],
+              "location": "HomepageSteps.typeInRegisterInputField(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "we type \u0027efdja@gmail.com\u0027 in the \u0027Email\u0027 register input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "efdja@gmail.com",
+                  "offset": 9
+                },
+                {
+                  "val": "Email",
+                  "offset": 34
+                }
+              ],
+              "location": "HomepageSteps.typeInRegisterInputField(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "we type \u0027Greisi123\u0027 in the \u0027Password\u0027 register input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Greisi123",
+                  "offset": 9
+                },
+                {
+                  "val": "Password",
+                  "offset": 28
+                }
+              ],
+              "location": "HomepageSteps.typeInRegisterInputField(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "we type \u0027Greisi123\u0027 in the \u0027Confirm Password\u0027 register input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Greisi123",
+                  "offset": 9
+                },
+                {
+                  "val": "Confirm Password",
+                  "offset": 28
+                }
+              ],
+              "location": "HomepageSteps.typeInRegisterInputField(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "we click \u0027Accept policy\u0027 in the register page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Accept policy",
+                  "offset": 10
+                }
+              ],
+              "location": "HomepageSteps.acceptTerms(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "we click \u0027Register\u0027 in the register page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Register",
+                  "offset": 10
+                }
+              ],
+              "location": "HomepageSteps.acceptTerms(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "check if registration is successful",
+            "match": {
+              "location": "HomepageSteps.checkIfRegistrationIsSuccessful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 24,
+            "name": "@Input"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5465900,
+              "error_message": "org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-8ILM9KA\u0027, ip: \u0027192.168.74.61\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.11\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 6996, moz:profile: C:\\Users\\kertu\\AppData\\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: a0488654-2c89-4781-adc9-36782a6e9200\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)\r\n\tat seleniumtest.page.HomePage.navigateToHomePage(HomePage.java:31)\r\n\tat seleniumtest.steps.HomepageSteps.thePageWithUrlIsOpened(HomepageSteps.java:48)\r\n\tat ✽.Given main page is opened(demo.feature:4)\r\n",
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "main page is opened",
+            "match": {
+              "location": "HomepageSteps.thePageWithUrlIsOpened()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 108500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "Register user",
+        "description": "",
+        "id": "german-computers-page;register-user;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 92200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "we click \u0027Log in\u0027 button from home page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Log in",
+                  "offset": 10
+                }
+              ],
+              "location": "HomepageSteps.clickButtonFromHomepage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "we click \u0027Register\u0027 button from login page",
+            "match": {
+              "location": "HomepageSteps.weClickLogInButtonFromLoginPage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "we type \u0027Cristiano\u0027 in the \u0027First Name\u0027 register input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cristiano",
+                  "offset": 9
+                },
+                {
+                  "val": "First Name",
+                  "offset": 28
+                }
+              ],
+              "location": "HomepageSteps.typeInRegisterInputField(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "we type \u0027Ronaldo\u0027 in the \u0027Last Name\u0027 register input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ronaldo",
+                  "offset": 9
+                },
+                {
+                  "val": "Last Name",
+                  "offset": 26
+                }
+              ],
+              "location": "HomepageSteps.typeInRegisterInputField(String,String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "we type \u0027earsadv@gmail.com\u0027 in the \u0027Email\u0027 register input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "earsadv@gmail.com",
+                  "offset": 9
+                },
+                {
+                  "val": "Email",
+                  "offset": 36
+                }
+              ],
+              "location": "HomepageSteps.typeInRegisterInputField(String,String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "name": "we type \u0027Greisi123\u0027 in the \u0027Password\u0027 register input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Greisi123",
+                  "offset": 9
+                },
+                {
+                  "val": "Password",
+                  "offset": 28
+                }
+              ],
+              "location": "HomepageSteps.typeInRegisterInputField(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "we type \u0027Greisi123\u0027 in the \u0027Confirm Password\u0027 register input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Greisi123",
+                  "offset": 9
+                },
+                {
+                  "val": "Confirm Password",
+                  "offset": 28
+                }
+              ],
+              "location": "HomepageSteps.typeInRegisterInputField(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "we click \u0027Accept policy\u0027 in the register page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Accept policy",
+                  "offset": 10
+                }
+              ],
+              "location": "HomepageSteps.acceptTerms(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 34,
+            "name": "we click \u0027Register\u0027 in the register page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Register",
+                  "offset": 10
+                }
+              ],
+              "location": "HomepageSteps.acceptTerms(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "check if registration is successful",
+            "match": {
+              "location": "HomepageSteps.checkIfRegistrationIsSuccessful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 24,
+            "name": "@Input"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 20236100,
+              "error_message": "org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-8ILM9KA\u0027, ip: \u0027192.168.74.61\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.11\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 6996, moz:profile: C:\\Users\\kertu\\AppData\\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: a0488654-2c89-4781-adc9-36782a6e9200\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)\r\n\tat seleniumtest.page.HomePage.navigateToHomePage(HomePage.java:31)\r\n\tat seleniumtest.steps.HomepageSteps.thePageWithUrlIsOpened(HomepageSteps.java:48)\r\n\tat ✽.Given main page is opened(demo.feature:4)\r\n",
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "main page is opened",
+            "match": {
+              "location": "HomepageSteps.thePageWithUrlIsOpened()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 106600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          }
+        ],
+        "line": 52,
+        "name": "Log in as user",
+        "description": "",
+        "id": "german-computers-page;log-in-as-user;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 95700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "we click \u0027Log in\u0027 button from home page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Log in",
+                  "offset": 10
+                }
+              ],
+              "location": "HomepageSteps.clickButtonFromHomepage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "we type \u0027ioansad@gmail.com\u0027 in the \u0027Email\u0027 login input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ioansad@gmail.com",
+                  "offset": 9
+                },
+                {
+                  "val": "Email",
+                  "offset": 36
+                }
+              ],
+              "location": "HomepageSteps.typeInLoginInputField(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "we type \u0027Greisi123\u0027 in the \u0027Password\u0027 login input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Greisi123",
+                  "offset": 9
+                },
+                {
+                  "val": "Password",
+                  "offset": 28
+                }
+              ],
+              "location": "HomepageSteps.typeInLoginInputField(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 47,
+            "name": "we click \u0027Log in\u0027 button from login page",
+            "match": {
+              "location": "HomepageSteps.login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "check if the login is successful",
+            "match": {
+              "location": "HomepageSteps.succesfulLogin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 49,
+            "name": "click logout in the Logged In page",
+            "match": {
+              "location": "HomepageSteps.logout()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 42,
+            "name": "@Input"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8377400,
+              "error_message": "org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-8ILM9KA\u0027, ip: \u0027192.168.74.61\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.11\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 6996, moz:profile: C:\\Users\\kertu\\AppData\\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: a0488654-2c89-4781-adc9-36782a6e9200\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)\r\n\tat seleniumtest.page.HomePage.navigateToHomePage(HomePage.java:31)\r\n\tat seleniumtest.steps.HomepageSteps.thePageWithUrlIsOpened(HomepageSteps.java:48)\r\n\tat ✽.Given main page is opened(demo.feature:4)\r\n",
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "main page is opened",
+            "match": {
+              "location": "HomepageSteps.thePageWithUrlIsOpened()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 136100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          }
+        ],
+        "line": 53,
+        "name": "Log in as user",
+        "description": "",
+        "id": "german-computers-page;log-in-as-user;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 114400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "we click \u0027Log in\u0027 button from home page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Log in",
+                  "offset": 10
+                }
+              ],
+              "location": "HomepageSteps.clickButtonFromHomepage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "we type \u0027efdja@gmail.com\u0027 in the \u0027Email\u0027 login input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "efdja@gmail.com",
+                  "offset": 9
+                },
+                {
+                  "val": "Email",
+                  "offset": 34
+                }
+              ],
+              "location": "HomepageSteps.typeInLoginInputField(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "we type \u0027Greisi123\u0027 in the \u0027Password\u0027 login input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Greisi123",
+                  "offset": 9
+                },
+                {
+                  "val": "Password",
+                  "offset": 28
+                }
+              ],
+              "location": "HomepageSteps.typeInLoginInputField(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 47,
+            "name": "we click \u0027Log in\u0027 button from login page",
+            "match": {
+              "location": "HomepageSteps.login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "check if the login is successful",
+            "match": {
+              "location": "HomepageSteps.succesfulLogin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 49,
+            "name": "click logout in the Logged In page",
+            "match": {
+              "location": "HomepageSteps.logout()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 42,
+            "name": "@Input"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 19070700,
+              "error_message": "org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-8ILM9KA\u0027, ip: \u0027192.168.74.61\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.11\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 6996, moz:profile: C:\\Users\\kertu\\AppData\\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: a0488654-2c89-4781-adc9-36782a6e9200\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)\r\n\tat seleniumtest.page.HomePage.navigateToHomePage(HomePage.java:31)\r\n\tat seleniumtest.steps.HomepageSteps.thePageWithUrlIsOpened(HomepageSteps.java:48)\r\n\tat ✽.Given main page is opened(demo.feature:4)\r\n",
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "main page is opened",
+            "match": {
+              "location": "HomepageSteps.thePageWithUrlIsOpened()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 174900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          }
+        ],
+        "line": 54,
+        "name": "Log in as user",
+        "description": "",
+        "id": "german-computers-page;log-in-as-user;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 84000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "we click \u0027Log in\u0027 button from home page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Log in",
+                  "offset": 10
+                }
+              ],
+              "location": "HomepageSteps.clickButtonFromHomepage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "we type \u0027earsadv@gmail.com\u0027 in the \u0027Email\u0027 login input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "earsadv@gmail.com",
+                  "offset": 9
+                },
+                {
+                  "val": "Email",
+                  "offset": 36
+                }
+              ],
+              "location": "HomepageSteps.typeInLoginInputField(String,String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "we type \u0027Greisi123\u0027 in the \u0027Password\u0027 login input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Greisi123",
+                  "offset": 9
+                },
+                {
+                  "val": "Password",
+                  "offset": 28
+                }
+              ],
+              "location": "HomepageSteps.typeInLoginInputField(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 47,
+            "name": "we click \u0027Log in\u0027 button from login page",
+            "match": {
+              "location": "HomepageSteps.login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "check if the login is successful",
+            "match": {
+              "location": "HomepageSteps.succesfulLogin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 49,
+            "name": "click logout in the Logged In page",
+            "match": {
+              "location": "HomepageSteps.logout()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 42,
+            "name": "@Input"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11792800,
+              "error_message": "org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-8ILM9KA\u0027, ip: \u0027192.168.74.61\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.11\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 6996, moz:profile: C:\\Users\\kertu\\AppData\\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: a0488654-2c89-4781-adc9-36782a6e9200\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)\r\n\tat seleniumtest.page.HomePage.navigateToHomePage(HomePage.java:31)\r\n\tat seleniumtest.steps.HomepageSteps.thePageWithUrlIsOpened(HomepageSteps.java:48)\r\n\tat ✽.Given main page is opened(demo.feature:4)\r\n",
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "main page is opened",
+            "match": {
+              "location": "HomepageSteps.thePageWithUrlIsOpened()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 122400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          }
+        ],
+        "line": 57,
+        "name": "Check login data",
+        "description": "",
+        "id": "german-computers-page;check-login-data",
+        "after": [
+          {
+            "result": {
+              "duration": 91700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 58,
+            "name": "we click \u0027Log in\u0027 button from home page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Log in",
+                  "offset": 10
+                }
+              ],
+              "location": "HomepageSteps.clickButtonFromHomepage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 59,
+            "name": "we type \u0027ioansad@gmail.com\u0027 in the \u0027Email\u0027 login input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ioansad@gmail.com",
+                  "offset": 9
+                },
+                {
+                  "val": "Email",
+                  "offset": 36
+                }
+              ],
+              "location": "HomepageSteps.typeInLoginInputField(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 60,
+            "name": "we type \u0027Greisi123\u0027 in the \u0027Password\u0027 login input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Greisi123",
+                  "offset": 9
+                },
+                {
+                  "val": "Password",
+                  "offset": 28
+                }
+              ],
+              "location": "HomepageSteps.typeInLoginInputField(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 61,
+            "name": "we click \u0027Log in\u0027 button from login page",
+            "match": {
+              "location": "HomepageSteps.login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 62,
+            "name": "we check the registration data",
+            "match": {
+              "location": "HomepageSteps.checkRegistrationData(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Greisi"
+                ],
+                "line": 63
+              },
+              {
+                "cells": [
+                  "Kertuka"
+                ],
+                "line": 64
+              },
+              {
+                "cells": [
+                  "ioansad@gmail.com"
+                ],
+                "line": 65
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 66,
+            "name": "click logout in the Logged In page",
+            "match": {
+              "location": "HomepageSteps.logout()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 56,
+            "name": "@Input"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 21005100,
+              "error_message": "org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-8ILM9KA\u0027, ip: \u0027192.168.74.61\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.11\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 6996, moz:profile: C:\\Users\\kertu\\AppData\\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: a0488654-2c89-4781-adc9-36782a6e9200\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)\r\n\tat seleniumtest.page.HomePage.navigateToHomePage(HomePage.java:31)\r\n\tat seleniumtest.steps.HomepageSteps.thePageWithUrlIsOpened(HomepageSteps.java:48)\r\n\tat ✽.Given main page is opened(demo.feature:4)\r\n",
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "main page is opened",
+            "match": {
+              "location": "HomepageSteps.thePageWithUrlIsOpened()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 111200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          }
+        ],
+        "line": 69,
+        "name": "Change login data",
+        "description": "",
+        "id": "german-computers-page;change-login-data",
+        "after": [
+          {
+            "result": {
+              "duration": 95600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 70,
+            "name": "we click \u0027Log in\u0027 button from home page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Log in",
+                  "offset": 10
+                }
+              ],
+              "location": "HomepageSteps.clickButtonFromHomepage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 71,
+            "name": "we type \u0027ioansad@gmail.com\u0027 in the \u0027Email\u0027 login input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ioansad@gmail.com",
+                  "offset": 9
+                },
+                {
+                  "val": "Email",
+                  "offset": 36
+                }
+              ],
+              "location": "HomepageSteps.typeInLoginInputField(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 72,
+            "name": "we type \u0027Greisi123\u0027 in the \u0027Password\u0027 login input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Greisi123",
+                  "offset": 9
+                },
+                {
+                  "val": "Password",
+                  "offset": 28
+                }
+              ],
+              "location": "HomepageSteps.typeInLoginInputField(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 73,
+            "name": "we click \u0027Log in\u0027 button from login page",
+            "match": {
+              "location": "HomepageSteps.login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 74,
+            "name": "we change the registration data",
+            "match": {
+              "location": "HomepageSteps.changeRegistrationData(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Wout"
+                ],
+                "line": 75
+              },
+              {
+                "cells": [
+                  "Weghorst"
+                ],
+                "line": 76
+              },
+              {
+                "cells": [
+                  "ioansad@gmail.com"
+                ],
+                "line": 77
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 78,
+            "name": "we check the registration data",
+            "match": {
+              "location": "HomepageSteps.checkRegistrationData(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Wout"
+                ],
+                "line": 79
+              },
+              {
+                "cells": [
+                  "Weghorst"
+                ],
+                "line": 80
+              },
+              {
+                "cells": [
+                  "ioansad@gmail.com"
+                ],
+                "line": 81
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 82,
+            "name": "click logout in the Logged In page",
+            "match": {
+              "location": "HomepageSteps.logout()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 68,
+            "name": "@Input"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 24983200,
+              "error_message": "org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-8ILM9KA\u0027, ip: \u0027192.168.74.61\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.11\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 6996, moz:profile: C:\\Users\\kertu\\AppData\\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: a0488654-2c89-4781-adc9-36782a6e9200\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)\r\n\tat seleniumtest.page.HomePage.navigateToHomePage(HomePage.java:31)\r\n\tat seleniumtest.steps.HomepageSteps.thePageWithUrlIsOpened(HomepageSteps.java:48)\r\n\tat ✽.Given main page is opened(demo.feature:4)\r\n",
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "main page is opened",
+            "match": {
+              "location": "HomepageSteps.thePageWithUrlIsOpened()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1310700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          }
+        ],
+        "line": 85,
+        "name": "Check shopping cart items",
+        "description": "",
+        "id": "german-computers-page;check-shopping-cart-items",
+        "after": [
+          {
+            "result": {
+              "duration": 104300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 86,
+            "name": "we hover at the \u0027Telefona\u0027 category in homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Telefona",
+                  "offset": 17
+                }
+              ],
+              "location": "HomepageSteps.homepageHover(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 87,
+            "name": "we select Xiaomi subcategory in homepage",
+            "match": {
+              "location": "HomepageSteps.click()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 88,
+            "name": "we add elements to Cart",
+            "match": {
+              "location": "HomepageSteps.addToCart(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "1",
+                  "2"
+                ],
+                "line": 89
+              }
+            ],
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 90,
+            "name": "we check shopping Cart Counter",
+            "match": {
+              "location": "HomepageSteps.checkShoppingCartCounter()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 84,
+            "name": "@Input"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10310500,
+              "error_message": "org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-8ILM9KA\u0027, ip: \u0027192.168.74.61\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.11\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 6996, moz:profile: C:\\Users\\kertu\\AppData\\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: a0488654-2c89-4781-adc9-36782a6e9200\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)\r\n\tat seleniumtest.page.HomePage.navigateToHomePage(HomePage.java:31)\r\n\tat seleniumtest.steps.HomepageSteps.thePageWithUrlIsOpened(HomepageSteps.java:48)\r\n\tat ✽.Given main page is opened(demo.feature:4)\r\n",
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "main page is opened",
+            "match": {
+              "location": "HomepageSteps.thePageWithUrlIsOpened()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 134900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          }
+        ],
+        "line": 93,
+        "name": "Check Shopping Cart Buttons",
+        "description": "",
+        "id": "german-computers-page;check-shopping-cart-buttons",
+        "after": [
+          {
+            "result": {
+              "duration": 104900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 94,
+            "name": "we hover at the \u0027Telefona\u0027 category in homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Telefona",
+                  "offset": 17
+                }
+              ],
+              "location": "HomepageSteps.homepageHover(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 95,
+            "name": "we select Xiaomi subcategory in homepage",
+            "match": {
+              "location": "HomepageSteps.click()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 96,
+            "name": "we add elements to Cart",
+            "match": {
+              "location": "HomepageSteps.addToCart(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "1",
+                  "2"
+                ],
+                "line": 97
+              }
+            ],
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 98,
+            "name": "we hover to shoppingCartButton",
+            "match": {
+              "location": "HomepageSteps.hoverToShoppingCartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 99,
+            "name": "we check shopping Cart buttons",
+            "match": {
+              "location": "HomepageSteps.checkShoppingCartButtons()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 92,
+            "name": "@Input"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 22547900,
+              "error_message": "org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-8ILM9KA\u0027, ip: \u0027192.168.74.61\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.11\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 6996, moz:profile: C:\\Users\\kertu\\AppData\\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: a0488654-2c89-4781-adc9-36782a6e9200\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)\r\n\tat seleniumtest.page.HomePage.navigateToHomePage(HomePage.java:31)\r\n\tat seleniumtest.steps.HomepageSteps.thePageWithUrlIsOpened(HomepageSteps.java:48)\r\n\tat ✽.Given main page is opened(demo.feature:4)\r\n",
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "main page is opened",
+            "match": {
+              "location": "HomepageSteps.thePageWithUrlIsOpened()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 102200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          }
+        ],
+        "line": 102,
+        "name": "Check Shopping Cart Price",
+        "description": "",
+        "id": "german-computers-page;check-shopping-cart-price",
+        "after": [
+          {
+            "result": {
+              "duration": 159100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 103,
+            "name": "we hover at the \u0027Telefona\u0027 category in homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Telefona",
+                  "offset": 17
+                }
+              ],
+              "location": "HomepageSteps.homepageHover(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 104,
+            "name": "we select Xiaomi subcategory in homepage",
+            "match": {
+              "location": "HomepageSteps.click()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 105,
+            "name": "we add elements to Cart",
+            "match": {
+              "location": "HomepageSteps.addToCart(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "1",
+                  "2"
+                ],
+                "line": 106
+              }
+            ],
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 107,
+            "name": "we hover to shoppingCartButton",
+            "match": {
+              "location": "HomepageSteps.hoverToShoppingCartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 108,
+            "name": "we click shopping Cart button after hover",
+            "match": {
+              "location": "HomepageSteps.clickShoppingCartAfterHover()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 109,
+            "name": "we check shopping card total price",
+            "match": {
+              "location": "HomepageSteps.weCheckShoppingCardTotalPrice()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 101,
+            "name": "@Input"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12387500,
+              "error_message": "org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-8ILM9KA\u0027, ip: \u0027192.168.74.61\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.11\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 6996, moz:profile: C:\\Users\\kertu\\AppData\\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: a0488654-2c89-4781-adc9-36782a6e9200\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)\r\n\tat seleniumtest.page.HomePage.navigateToHomePage(HomePage.java:31)\r\n\tat seleniumtest.steps.HomepageSteps.thePageWithUrlIsOpened(HomepageSteps.java:48)\r\n\tat ✽.Given main page is opened(demo.feature:4)\r\n",
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "main page is opened",
+            "match": {
+              "location": "HomepageSteps.thePageWithUrlIsOpened()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4937800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          }
+        ],
+        "line": 112,
+        "name": "Try Shopping Cart Update button",
+        "description": "",
+        "id": "german-computers-page;try-shopping-cart-update-button",
+        "after": [
+          {
+            "result": {
+              "duration": 88700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 113,
+            "name": "we hover at the \u0027Telefona\u0027 category in homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Telefona",
+                  "offset": 17
+                }
+              ],
+              "location": "HomepageSteps.homepageHover(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 114,
+            "name": "we select Xiaomi subcategory in homepage",
+            "match": {
+              "location": "HomepageSteps.click()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 115,
+            "name": "we add elements to Cart",
+            "match": {
+              "location": "HomepageSteps.addToCart(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "1",
+                  "2"
+                ],
+                "line": 116
+              }
+            ],
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 117,
+            "name": "we hover to shoppingCartButton",
+            "match": {
+              "location": "HomepageSteps.hoverToShoppingCartButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 118,
+            "name": "we click shopping Cart button after hover",
+            "match": {
+              "location": "HomepageSteps.clickShoppingCartAfterHover()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 119,
+            "name": "we \u0027increment\u0027 the quantity of first element",
+            "match": {
+              "arguments": [
+                {
+                  "val": "increment",
+                  "offset": 4
+                }
+              ],
+              "location": "HomepageSteps.weIncrementTheQuantityOfFirstElement(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 111,
+            "name": "@Input"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13851100,
+              "error_message": "org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-8ILM9KA\u0027, ip: \u0027192.168.74.61\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.11\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210622155641, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 6996, moz:profile: C:\\Users\\kertu\\AppData\\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: a0488654-2c89-4781-adc9-36782a6e9200\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)\r\n\tat seleniumtest.page.HomePage.navigateToHomePage(HomePage.java:31)\r\n\tat seleniumtest.steps.HomepageSteps.thePageWithUrlIsOpened(HomepageSteps.java:48)\r\n\tat ✽.Given main page is opened(demo.feature:4)\r\n",
+              "status": "failed"
+            },
+            "line": 4,
+            "name": "main page is opened",
+            "match": {
+              "location": "HomepageSteps.thePageWithUrlIsOpened()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 136900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before(Scenario)"
+            }
+          }
+        ],
+        "line": 122,
+        "name": "Send feedback",
+        "description": "",
+        "id": "german-computers-page;send-feedback",
+        "after": [
+          {
+            "result": {
+              "duration": 93700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 123,
+            "name": "we click \u0027Dyqani\u0027 button from home page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dyqani",
+                  "offset": 10
+                }
+              ],
+              "location": "HomepageSteps.clickButtonFromHomepage(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 124,
+            "name": "we click First Item",
+            "match": {
+              "location": "HomepageSteps.weClickFirstItem()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 125,
+            "name": "we click Reviews",
+            "match": {
+              "location": "HomepageSteps.weClickReviews()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 126,
+            "name": "We choose 5 stars",
+            "match": {
+              "location": "HomepageSteps.fiveStars()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 127,
+            "name": "we type \u0027Greisi\u0027 in the \u0027Name\u0027 product input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Greisi",
+                  "offset": 9
+                },
+                {
+                  "val": "Name",
+                  "offset": 25
+                }
+              ],
+              "location": "HomepageSteps.sendKeysToReview(String,String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 128,
+            "name": "we type \u0027Super produkt\u0027 in the \u0027Comment\u0027 product input field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Super produkt",
+                  "offset": 9
+                },
+                {
+                  "val": "Comment",
+                  "offset": 32
+                }
+              ],
+              "location": "HomepageSteps.sendKeysToReview(String,String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 129,
+            "name": "we click \u0027Send review\u0027 button from product page",
+            "match": {
+              "location": "HomepageSteps.sendReview()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 130,
+            "name": "we check if review was successful",
+            "match": {
+              "location": "HomepageSteps.weCheckIfReviewWasSuccessful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 121,
+            "name": "@Input"
+          }
+        ]
+      }
+    ],
+    "name": "German Computers Page",
+    "description": "",
+    "id": "german-computers-page",
+    "keyword": "Feature",
+    "uri": "demo.feature"
+  }
+]
